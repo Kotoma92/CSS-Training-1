@@ -1,0 +1,120 @@
+body {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: black;
+    line-height: 1.8;
+}
+.bgimage1 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../images/Wallpaper.jpg');
+    min-height: 100%;
+    /*opacity: 0.6;*/
+}
+.bgimage2 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../images/LAN.jpg');
+    min-height: 100%;
+    /*opacity: 0.6;*/
+}
+.centerbox {
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: gray;
+    opacity: 0.8;
+    position: absolute;
+}
+.bounce-ani {
+    animation: 3s forwards 0s bounce infinite;
+    animation-name: bounce-ani;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+@keyframes bounce-ani {
+    0%   { transform: translateY(0%); }
+    16.6%  { transform: translateY(-100%); }
+    33.3% { transform: translateX(-100%); }
+    50% { transform: translateY(100%); }
+    66% { transform: translateX(100%); }
+    83.3% { transform: translateY(-100%); }
+    100% { transform: translateY(0px); }
+}
+/*@keyframes bounce-ani {
+    0%   { transform: translateY(0); }
+    16.6%  { transform: translateY(-600px); }
+    33.3% { transform: translateX(-600px); }
+    50% { transform: translateY(600px); }
+    66% { transform: translateX(600px); }
+    83.3% { transform: translateY(-600px); }
+    100% { transform: translateY(0px); }
+}*/
+.centertext {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+h2 {
+    border-bottom: 3px solid #777;
+    text-align:center;
+}
+h3 {
+    text-align:center;
+    background-color: gray;
+
+}
+.meme1 {
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:50%;
+    background-image:url('../images/meme1.png');
+    min-height:50%;
+}
+.meme2 {
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:50%;
+    background-image:url('../images/meme2.jpg');
+    min-height:50%;
+}
+.meme3 {
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:50%;
+    background-image:url('../images/meme3.jpg');
+    min-height:50%;
+}
+.meme4 {
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:50%;;
+    background-image:url('../images/meme4.jpg');
+    min-height:50%;
+}
+.meme5 {
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:50%;
+    background-image:url('../images/meme5.jpg');
+    min-height:50%;
+}
+.meme6 {
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:50%;
+    background-image:url('../images/meme6.png');
+    min-height:100%;
+}
